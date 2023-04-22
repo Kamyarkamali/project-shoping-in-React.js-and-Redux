@@ -1,0 +1,11 @@
+.cardscontainer{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 7rem;
+    background-color: #222;
+}

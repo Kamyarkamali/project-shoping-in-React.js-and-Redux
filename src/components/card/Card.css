@@ -1,0 +1,191 @@
+.cardcontainer img{
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    height: 230px;
+}
+
+.card{
+    /* width: 100%; */
+    padding: 3rem;
+    border-radius: 8px;
+    height: 200px;
+
+}
+
+.card h4{
+    text-align: center;
+    color: gray;
+}
+
+.title{
+    text-align: center;
+    color:yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.title h4{
+    border-bottom: 1px solid;
+    width: fit-content;
+    text-align: center;
+}
+
+.cardcontainer{
+    position: relative;
+    margin-top: 3rem;
+    background-color: #444;
+    border: 1px solid #555;
+    box-shadow: 7px 2px 20px -17px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.cardcontainer:hover{
+    box-shadow: 15px 10px 24px -14px rgba(0,0,0,0.75);
+}
+
+.saved{
+    text-align: right;
+    padding: 10px;
+    font-size: 21px;
+}
+
+
+.saveicon{
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
+.saveicon:hover{
+    color: green;
+}
+
+.corseeicon{
+    color: red;
+}
+
+.detailse{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #dbd3d3;
+    margin-left: 10px;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 14px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+.liked{
+    color: #333;
+    transition: all 0.4s ease-in ;
+}
+
+.liked:hover{
+    color: green;
+}
+
+.unliked{
+    color: #333;
+    transition: all 0.4s ease-in ;
+}
+
+.unliked:hover{
+    color: red;
+}
+
+.menu{
+    text-align: right;
+    padding: 3px;
+    margin-top: -33px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.hearte{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hearte:hover{
+    color: red;
+}
+
+.love{
+    color: red;
+}
+
+
+.price{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    width: fit-content;
+    margin-left: 15px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+.ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 30;
+    transition: all 0.4s ease-in;
+}
+
+.btn{
+    gap: 10px;
+}
+
+
+.ul li{
+    border-bottom: 1px solid;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.62);
+    transition: all 0.4s ease-in;
+    color: #eee;
+}
+
+.ul li:hover {
+    background-color: rgba(35, 21, 3, 0.828);
+    border-bottom: none;
+    color: #fff;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 12px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btn button:hover{
+    background-color: rgb(6, 6, 191);
+}

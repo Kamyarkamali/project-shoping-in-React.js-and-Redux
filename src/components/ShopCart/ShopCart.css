@@ -1,0 +1,138 @@
+.shopcart{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 7rem;
+    border: 3px solid orange;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #333;
+    /* position: relative; */
+    height: fit-content;
+
+    
+}
+
+.reen{
+    /* border: 3px solid green; */
+    padding: 2rem;
+    border-radius: 6px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.ckeck h3{
+    color: #fff;
+    background-color: green;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fainal{
+    display: flex;
+    justify-content: end;
+    margin-top: -11rem;
+    /* position: absolute; */
+    /* top: 90px; */
+    /* right: 100px; */
+
+}
+.fainal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.ckeck a{
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+}
+
+
+.reen button:first-child{
+    border: none;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.reen button:last-child{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cleare h3{
+    color: #fff;
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cleare a{
+    color: #fff;
+    font-weight: bold;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.priceqouantity p{
+    text-align: center;
+}
+
+@media (min-width:320px) and (max-width:480px){
+  .reen{
+    margin-top: 8rem;
+    margin-right: 5rem;
+    padding: 0;
+  }
+  .fainal{
+    position: relative;
+    flex-direction: column;
+    margin-top: -5rem;
+    top: -3rem;
+  }
+  .button button{
+    font-size: 10px;
+    width: fit-content;
+  }
+  .price{
+    padding: 2px;
+  }
+
+
+  .priceqouantity p{
+    padding: 1px;
+  }
+  
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .reen{
+        margin-top: 10rem;
+        margin-right: 3rem;
+    }
+    .price{
+        padding: 1px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .priceqouantity p{
+        padding: 1px;
+    }
+}

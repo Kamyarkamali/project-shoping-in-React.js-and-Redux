@@ -1,0 +1,92 @@
+/* .image img{
+    max-width: 100px;
+} */
+
+.image{
+    display: flex;
+    align-items: center;
+    /* padding: 1rem; */
+    gap: 30px;
+}
+
+.imagess{
+    width: 100px;
+}
+
+
+.image span{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.image p{
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.price{
+    background-color: green;
+}
+
+.priceqouantity{
+    width:fit-content;
+}
+
+
+.btnshop button{
+    margin-left: 6px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: orangered;
+    color: #ddd;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+.btnshop button:first-child{
+    transition: all 0.4s ease-in;
+}
+
+.btnshop button:hover:first-child{
+    background-color: red;
+}
+
+.btnshop button:hover:last-child{
+    background-color: green;
+}
+
+
+
+@media(min-width:320px) and (max-width:480px){
+    .image{
+        position: relative;
+    }
+    .btnshop{
+        position: absolute;
+        /* top: 20rem; */
+        right:0;
+        z-index: 40;
+    }
+    .btnshop button{
+        font-size: 10px;
+    }
+   .priceqouantity{
+    position: absolute;
+    top: 8rem;
+    left: 11rem;
+    padding: 5px;
+   }
+    
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .btnshop{
+        display: flex;
+    }
+}
